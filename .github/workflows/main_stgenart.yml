@@ -59,5 +59,4 @@ jobs:
         id: deploy-to-webapp
         with:
           app-name: 'web12309823'
-          #slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_50A6EF2A925C4735B4DD39942EC42EA7 }}
